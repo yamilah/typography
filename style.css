@@ -3,3 +3,11 @@ body {
     background-attachment: fixed;
     background-size: 100%;
 }
+
+img:not(:first-child) {
+    margin-top: 40%;
+}
+
+img:first-child {
+    margin-top: 5%;
+}
