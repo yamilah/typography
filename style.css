@@ -1,7 +1,10 @@
 body {
-    background-image: url(bgs/greychev.svg);
-    background-attachment: fixed;
+    background: url(bgs/greychev.svg) no-repeat center center fixed;
     background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 img:not(:first-child) {
