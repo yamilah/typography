@@ -1,3 +1,5 @@
 body {
     background-image: url(bgs/greychev.svg);
+    background-attachment: fixed;
+    background-size: 100%;
 }
